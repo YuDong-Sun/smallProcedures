@@ -1,0 +1,15 @@
+<view class="main">
+<view>
+   {{ city }}
+    </view>
+<view>
+  2
+  </view>
+  <view>
+  3
+  </view>
+  <view>
+  4
+  </view>
+</view>
+

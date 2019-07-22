@@ -1,0 +1,12 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main > view{
+  flex:1;
+  height:300rpx;
+  background: green;
+  text-align: center;
+  line-height: 300rpx;
+}

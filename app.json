@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/event/event",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#2f8654",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+      "list":[{
+        "pagePath":"pages/home/home",
+        "text":"首页"
+      },{
+        "pagePath": "pages/event/event",
+        "text": "我的"
+      }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

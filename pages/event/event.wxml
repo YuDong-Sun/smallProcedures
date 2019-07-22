@@ -1,0 +1,17 @@
+<view>
+  {{ str }}
+</view>
+<button bindtap="tapName">修改str</button>
+<view wx:for="{{cityArr}}" wx:key="{{index}}">
+  {{item}}
+  {{index}}
+</view>
+
+<view wx:if="{{cityArr.length > 0}}">
+   <text wx:for="{{cityArr}}" wx:key="{{index}}">
+      {{item}}
+    </text>
+</view>
+<view wx:else>
+  暂无数据...
+</view>
